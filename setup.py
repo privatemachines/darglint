@@ -64,9 +64,9 @@ setup(
         'console_scripts': [
             'darglint = darglint.driver:main',
         ],
-        flake8_entry_point: [
-            'DAR = darglint.flake8_entry:DarglintChecker',
-        ],
+        # flake8_entry_point: [
+        #     'DAR = darglint.flake8_entry:DarglintChecker',
+        # ],
     },
     install_requires=requirements,
     setup_requires=requirements,
